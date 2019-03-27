@@ -1,0 +1,103 @@
+HTML -- Hyper Test Markup Language.
+
+HTML TAGS- <html>,<head>, <title>, <body>, 
+
+html- html is the starting of any html coding .
+head- in head we can define any headings .
+title - title is the name of your open tab .
+body - we can create our whole page in body .
+
+<br> - to add a break in a line ..
+
+<p align=center> text </p> -> align can be - left, right, center, justified. 
+
+HTML TEXT STYLES -- <b>, <i>, <s>,<u>, <tt>  -- bold, italic, strikethrough, underline, testwriter text
+
+HTML LISTS-- list are 3 types
+1-
+<ul type="circle"> unordered list 
+<li> -> to take option in circle or square..
+<li> Basic  <li> C <li> Java <li> Fortran <li> JavaScript
+</ul>
+2-
+<ol> -> ORDER LIST LIKE - 1,2,3,4, (OPTIONS)
+</ol>
+
+3- 
+<dl> Defination list..
+<dt> defination topic.. Like-- ( Keyboard)
+<dd> complete defination ..
+note- <dt> <dd> close ni honge..
+</dl>
+
+<blockquote>  I am trying to apply blockquote here .  block quote means line will start 
+              after some spacing ..
+</blockquote>
+
+-> How we can Write cemical reactions & arithmetic formulas .. here we learn about that..
+use <sup> digit </sup> for upper digit like - a2+b2
+use <sub> digit </sub> for lower digit like - h2o
+
+
+-->> To Link Pages ( four types of linking we can do in html  ) 
+1-Linking to other web Pages..
+
+<a href= "Cardekho.html"> Visit CarDekho</a> <br>
+<a href= "Bikedekho.html"> Visit BikeDekho</a> 
+
+2-Links within a page..
+3-Links to a specific part of another page ..
+4- E-mail links..
+
+HTML Document Tables-->>
+to make tables you have to start with <table> .... </table> tag. with table tag we will  use <tr>..<tr>, <td>..</td> and <th>..</th> tags
+
+1-> in <table> we can use -- Border, cellspacing, cellpadding-the amount of space between the edges of the cell and its contents.,width, bgcolor,background,..
+2-> <tr>..</tr> defines a table row -- align, valign,bgcolor, background,. (TR- TABLE ROW)
+3-> <th> .. </th> defines a table heading cell its attributes are -- align, valign, rowspan, colspan, width , bgcolor, background (TH-TABLE HEADING) [rowspan & colspan means merging between cells ]
+4-> <td> ..</td> defines a table data cell .. -- align, valign, rowspan,colspan,width bgcolor, background. (TD- TABLE DATA)
+
+if we want to add any image in cells then [ <tr> <td><img src="filename.html"> 
+ note-->> <tr>,<th>,<td> close ni honge only <table> close hogi ..
+
+HTML IMAGES -- >>
+
+ to add image with the help of this tag -->> <img src="picture.png">
+[ align - left, right, bottom, top , height, width, border, hspace - horizontal space , vspace - vertical space ..
+
+HTML MULTIMEDIA -->>
+
+  to add sound & video in a web page with the help of <audio controls>
+  <source src="sakhiya.mp3" type="audio/ogg" >
+</audio>
+
+to add video in a web page with the help of 
+<video width="400" controls>
+  <source src="mov_bbb.mp4" type="video/mp4">
+</video>
+
+
+
+HTML FORMS -->>
+the HTML <form> element defines a form that is used to collect user input .. 
+<form>  .... form elements ..... </form>
+
+the <input> element
+
+   input types are many types it can be text, radio, submit , password , reset , check box , button & so on ...
+<input type="text" or "radio" or "submit" or "password" or "reset" or "color" or "date" or "datetime-local" or "email" or "file" "month" (month is not supported in safari , firefox, internetExplorer earlier than 11 version.. ) or "number" min="1" max"10" or "range" min="1" max="10" or "time" or "search"or.......>
+
+-->> use <form action="/action_page.php"> for submit form & get it to other page ..
+
+-->> HTML 5 CODING <<--
+FOR CHOOSING COLOR--
+Select your favorite color:
+  <input type="color" name="favcolor" value="#ff0000">
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+TRAINNING TIME NOTES -->>
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------
